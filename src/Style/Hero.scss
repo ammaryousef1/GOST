@@ -1,0 +1,145 @@
+@import './Variables/Variables.scss';
+.hero {
+    text-align: center;
+    margin:  100px 0;
+}
+.title {
+  
+        h1 {
+            font-size: 40px;
+            font-weight: 500;
+            span {
+                color: $primary;
+            }
+        }
+}
+
+.search {
+    padding: 15px;
+    border-radius: 45px;
+    max-width: 100%;
+    width: 55%;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 18px;
+    align-items: center;
+    .search-npt {
+        display: flex;
+        gap: 30px;
+        input {
+            font-size: 18px;
+            border: none;
+            outline: none;
+           
+        }
+    
+        .icon-search {
+            
+        }
+    }
+   
+
+}
+
+
+ 
+.p {
+    color: $text;
+    margin: 30px 0;
+}
+
+.p:last-of-type {
+    color: $text;
+   margin: 10px;
+}
+
+@media (max-width: 580px) {
+    .title {
+        h1 {
+            font-size: 30px;
+            font-weight: 500;
+            span {
+                color: $primary;
+            font-size: 20px;
+            }
+        }
+    }
+    .search {
+      
+        span {
+            font-size: 15px;
+        }
+
+        input {
+            font-size: 15px;
+            border-radius: 100px;           
+        }
+    
+        .icon-search {
+           display: none;
+        }
+    
+    }
+    
+}
+
+@media (max-width: 480px) {
+
+    .search {
+      
+        span {
+            font-size: 12px;
+        }
+
+        input {
+            font-size: 12px;
+            border: none;
+            outline: none;
+           
+        }
+    
+        .icon-search {
+           display: none;
+        }
+
+    }
+    
+}
+
+@media screen and (max-width:425px) {
+    
+
+
+    .search {
+      
+        span {
+            left: 10px;
+            font-size: 10px;
+
+        }
+
+        input {
+            font-size: 100px;
+            border: none;
+            outline: none;
+           
+        }
+    
+        .icon-search {
+           display: none;
+        }
+
+    }
+}
+
+    .cards {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+

@@ -1,0 +1,341 @@
+@import '../../../../App.scss';
+@import '../../../../Style/Variables/Variables.scss';
+.latestblog {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    .latestblog-title {
+        text-align: center;
+        padding: 50px;
+
+        h2 {
+            margin-bottom: 10px;
+            font-weight: 100;
+        }
+
+        p {
+            color: $text;
+        }
+
+    }
+    .latestblog-cart {
+      display: flex;
+      position: relative;
+      right: 60px;
+      gap: 170px;
+      flex-wrap: wrap;
+    }
+}
+
+.latestblogCart {
+
+    img {
+        position: absolute;
+        width: 400px;
+        height: 250px;
+        border-radius: 10px;
+
+    }
+
+    .latestblogCart-inside {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 120px;
+        position: relative;
+    }
+
+    .latestblogCart-title {
+        color: white;
+      
+        span {
+            color: $text;
+        }
+
+        span span{
+            color: $primary;
+        }
+
+        h5 {
+            margin-top: 10px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 1152px) {
+    .latestblog {
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        flex-direction: column;
+        .latestblog-title {
+            text-align: center;
+            padding: 50px;
+    
+            h2 {
+                margin-bottom: 10px;
+                font-weight: 100;
+            }
+    
+            p {
+                color: $text;
+            }
+    
+        }
+        .latestblog-cart {
+          display: flex;
+          position: relative;
+          left: 100px;
+          gap: 170px;
+          flex-wrap: wrap;
+        }
+    }
+}
+
+@media screen and (max-width: 957px) {
+    .latestblog {
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        flex-direction: column;
+        .latestblog-title {
+            text-align: center;
+            padding: 50px;
+    
+            h2 {
+                margin-bottom: 10px;
+                font-weight: 100;
+            }
+    
+            p {
+                color: $text;
+            }
+    
+        }
+        .latestblog-cart {
+          display: flex;
+          position: relative;
+          left: 50px;
+          gap: 170px;
+          flex-wrap: wrap;
+        }
+    }
+}
+
+@media screen and (max-width: 957px) {
+    .latestblog {
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        flex-direction: column;
+        .latestblog-title {
+            text-align: center;
+            padding: 50px;
+    
+            h2 {
+                margin-bottom: 10px;
+                font-weight: 100;
+            }
+    
+            p {
+                color: $text;
+            }
+    
+        }
+        .latestblog-cart {
+          display: flex;
+          position: relative;
+          left:-70px;
+
+          gap: 170px;
+          flex-direction: column;
+        }
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .latestblog {
+      
+        .latestblog-title {
+          
+            h2 {
+                margin-bottom: 10px;
+                font-weight: 100;
+            }
+    
+            p {
+                color: $text;
+            }
+    
+        }
+        .latestblog-cart {
+          display: flex;
+          position: relative;
+          left:-30px;
+
+          gap: 170px;
+          flex-direction: column;
+        }
+    }
+
+    .latestblogCart {
+
+        img {
+            position: absolute;
+            width: 340px;
+            height: 250px;
+            border-radius: 10px;
+    
+        }
+    
+        .latestblogCart-inside {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 120px;
+            position: relative;
+        }
+    
+        .latestblogCart-title {
+            color: white;
+          
+            span {
+                color: $text;
+            }
+    
+            span span{
+                color: $primary;
+            }
+    
+            h5 {
+                margin-top: 10px;
+            }
+        }
+    
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .latestblog {
+      
+        .latestblog-title {
+          
+            h2 {
+                margin-bottom: 10px;
+                font-weight: 100;
+            }
+    
+            p {
+                color: $text;
+            }
+    
+        }
+        .latestblog-cart {
+          display: flex;
+          position: relative;
+          left:-30px;
+
+          gap: 170px;
+          flex-direction: column;
+        }
+    }
+
+    .latestblogCart {
+
+        img {
+            position: absolute;
+            width: 340px;
+            height: 250px;
+            border-radius: 10px;
+    
+        }
+    
+        .latestblogCart-inside {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 120px;
+            position: relative;
+        }
+    
+        .latestblogCart-title {
+            color: white;
+          
+            span {
+                color: $text;
+            }
+    
+            span span{
+                color: $primary;
+            }
+    
+            h5 {
+                margin-top: 10px;
+            }
+        }
+    
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .latestblog {
+        .latestblog-title {
+          
+            h2 {
+                margin-bottom: 10px;
+                font-weight: 100;
+            }
+    
+            p {
+                color: $text;
+            }
+    
+        }
+        .latestblog-cart {
+          display: flex;
+          position: relative;
+          left:-10px;
+
+          gap: 170px;
+          flex-direction: column;
+        }
+    }
+
+    .latestblogCart {
+
+        img {
+            position: absolute;
+            width: 300px;
+            height: 250px;
+            border-radius: 10px;
+    
+        }
+    
+        .latestblogCart-inside {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 120px;
+            position: relative;
+        }
+    
+        .latestblogCart-title {
+            color: white;
+          
+            span {
+                color: $text;
+            }
+    
+            span span{
+                color: $primary;
+            }
+    
+            h5 {
+                margin-top: 10px;
+            }
+        }
+    
+    }
+}

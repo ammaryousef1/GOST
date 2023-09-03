@@ -1,0 +1,186 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.gradient-button {
+  /* ff 3.6+ */
+  /* safari 5.1+,chrome 10+ */
+  /* opera 11.10+ */
+  background: -o-linear-gradient(90deg, rgb(232, 115, 115) 30%, rgb(255, 66, 91) 48%, rgb(255, 66, 91) 67%);
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#FF425B", endColorstr="#E87373", GradientType=0 );
+  /* ie 10+ */
+  /* global 94%+ browsers support */
+  background: linear-gradient(90deg, rgb(232, 115, 115) 30%, rgb(255, 66, 91) 48%, rgb(255, 66, 91) 67%);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  align-items: center;
+}
+header .left-side {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+header .left-side img {
+  width: 100px;
+}
+header .left-side ul .li {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+header .right-side {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+header .right-side .icons {
+  display: flex;
+  align-items: center;
+  display: block;
+}
+header .right-side .icons .icon {
+  padding: 5px;
+}
+
+.menu {
+  display: none;
+  position: relative;
+}
+
+.nav {
+  background: rgba(0, 0, 0, 0.653);
+  width: 200vh;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  position: fixed;
+  z-index: 10;
+}
+.nav .all-NavLinks {
+  display: flex;
+  position: absolute;
+  background-color: white;
+  height: 100vh;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0px;
+  width: 300px;
+  padding-top: 100px;
+  justify-content: space-between;
+}
+.nav .lis {
+  display: flex;
+  flex-direction: column;
+}
+.nav .li {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  left: 50px;
+  position: relative;
+}
+.nav .ex {
+  position: relative;
+  bottom: 100px;
+  font-size: 20px;
+}
+
+.menu-basket {
+  position: absolute;
+  top: 0;
+}
+
+.showbasket {
+  background-color: white;
+  position: relative;
+  z-index: 100;
+  right: 200px;
+  top: 70px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 10px 1px rgb(156, 156, 156);
+  align-items: center;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+}
+.showbasket img {
+  width: 70px;
+  height: 70px;
+}
+.showbasket h5 {
+  font-weight: 100;
+}
+
+.showbasket-view {
+  background-color: white;
+  position: relative;
+  z-index: 100;
+  right: 200px;
+  top: 70px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+  box-shadow: 0px 0px 10px 1px rgb(156, 156, 156);
+  z-index: 101;
+}
+.showbasket-view .showbasket-title {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.showbasket-view .line {
+  background-color: rgb(192, 192, 192);
+  padding: 1px 0;
+  border-radius: 5px;
+}
+.showbasket-view img {
+  width: 70px;
+  height: 70px;
+}
+.showbasket-view h5 {
+  font-weight: 100;
+}
+
+.cart-basket {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #9d9d9d;
+}
+.cart-basket img {
+  border-radius: 50%;
+}
+.cart-basket .cart-basket-title {
+  width: 150px;
+}
+.cart-basket .cart-basket-title h5 {
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 900px) {
+  .menu {
+    display: block;
+    position: relative;
+  }
+  .left-side ul {
+    display: none;
+  }
+}
+@media screen and (max-width: 550px) {
+  .icons {
+    display: none;
+  }
+}/*# sourceMappingURL=Navbar.css.map */

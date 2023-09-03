@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.gradient-button {
+  /* ff 3.6+ */
+  /* safari 5.1+,chrome 10+ */
+  /* opera 11.10+ */
+  background: -o-linear-gradient(90deg, rgb(232, 115, 115) 30%, rgb(255, 66, 91) 48%, rgb(255, 66, 91) 67%);
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#FF425B", endColorstr="#E87373", GradientType=0 );
+  /* ie 10+ */
+  /* global 94%+ browsers support */
+  background: linear-gradient(90deg, rgb(232, 115, 115) 30%, rgb(255, 66, 91) 48%, rgb(255, 66, 91) 67%);
+}
+
+.ThePlans {
+  background-color: #0a2748;
+  padding: 50px 0;
+  color: white;
+}
+.ThePlans .ThePlans-title {
+  text-align: center;
+}
+.ThePlans .ThePlans-title p {
+  margin-top: 10px;
+}
+.ThePlans .CartPlans {
+  padding: 30px;
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.CartPlan {
+  border-radius: 10px;
+  margin-top: 50px;
+  background-color: #072A4F;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.CartPlan .title {
+  color: rgb(240, 240, 240);
+  padding: 20px 0;
+}
+.CartPlan .price {
+  display: flex;
+  align-items: end;
+  padding: 10px 0;
+  padding-bottom: 20px 0;
+}
+.CartPlan .price p {
+  display: flex;
+}
+.CartPlan .price span {
+  color: #ffffff;
+}
+.CartPlan .paragraph {
+  color: rgb(255, 255, 255);
+  padding: 10px 0;
+  width: 300px;
+}
+.CartPlan button {
+  font-size: 10px;
+  margin: 30px 0;
+  padding: 10px;
+}
+.CartPlan .check h5 {
+  margin: 30px 0;
+}/*# sourceMappingURL=ThePlans.css.map */

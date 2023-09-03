@@ -1,0 +1,112 @@
+@import '../../../../Style/Variables/Variables.scss';
+
+.Algistino {
+    padding: 100px;
+    .Algistino-title {
+        text-align: center;
+
+        h1 {
+            margin-bottom: 10px;
+        }
+    }
+
+
+    .Algistino-all-box {
+        display: flex;
+    }
+}
+
+
+.Algistinobox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+
+    .quat-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        padding: 10px;
+        border-radius: 400px;
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: 35px;
+        box-shadow: 0  0  5px   rgba(0, 0, 0, 0.3);
+    }
+  
+}
+
+.Algistino-box {
+
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    flex-wrap: wrap;
+    q {
+        color: $text;
+        line-height: 2rem;
+    }
+    
+
+    h3 {
+        margin: 20px;
+    }
+
+
+    span {
+        color: $text;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .Algistino-all-box {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 393px) {
+    .Algistino {
+
+        .Algistino-title {
+
+    
+            h1 {
+
+            }
+        }
+    
+    
+        .Algistino-all-box {
+            position: relative;
+            right: 20px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .Algistino {
+
+        .Algistino-title {
+
+    
+            h1 {
+
+            }
+        }
+    
+    
+        .Algistino-all-box {
+            position: relative;
+            right: 45px;
+        }
+    }
+}
+

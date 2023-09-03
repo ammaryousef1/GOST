@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600&family=Dancing+Script:wght@700&family=Inter:wght@500;700&family=Kanit:wght@200;300;400;500;600;700&family=Lato:ital,wght@1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;1,800&family=Prompt:wght@100;200;300;400;500;600&family=Roboto+Mono:ital,wght@1,300&family=Roboto+Slab:wght@100;200;300;400;500&family=Roboto:ital@1&family=Rubik:ital,wght@0,400;0,500;1,300;1,400&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.gradient-button {
+  /* ff 3.6+ */
+  /* safari 5.1+,chrome 10+ */
+  /* opera 11.10+ */
+  background: -o-linear-gradient(90deg, rgb(232, 115, 115) 30%, rgb(255, 66, 91) 48%, rgb(255, 66, 91) 67%);
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#FF425B", endColorstr="#E87373", GradientType=0 );
+  /* ie 10+ */
+  /* global 94%+ browsers support */
+  background: linear-gradient(90deg, rgb(232, 115, 115) 30%, rgb(255, 66, 91) 48%, rgb(255, 66, 91) 67%);
+}
+
+.all-products {
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+
+.products-item {
+  padding: 10px;
+}
+.products-item .image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.products-item .image img {
+  border-radius: 15px;
+  width: 320px;
+  height: 320px;
+  position: relative;
+}
+.products-item .image .overlay {
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  opacity: 0;
+  transition: 0.8s;
+}
+.products-item .image .overlay button {
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+  text-align: center;
+  margin: 10px;
+  transition: 0.3s;
+}
+.products-item .image .overlay button:hover {
+  background-color: #ff5400;
+  color: #fff;
+}
+.products-item .image .overlay:hover {
+  opacity: 1;
+  bottom: 30px;
+}
+.products-item h4 {
+  padding: 5px;
+  font-weight: 500;
+}
+.products-item p {
+  font-family: "Cairo", sans-serif;
+  font-family: "Dancing Script", cursive;
+  font-family: "Inter", sans-serif;
+  font-family: "Kanit", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Prompt", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Roboto Slab", serif;
+  font-family: "Rubik", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 0 5px;
+  color: #9d9d9d;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.modal {
+  position: relative;
+  width: 80%;
+  max-width: 800px;
+  max-height: 90%;
+  overflow: auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 2;
+}
+.modal img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}/*# sourceMappingURL=Products.css.map */

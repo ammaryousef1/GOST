@@ -1,0 +1,63 @@
+@import '../../../../Style/Variables/Variables.scss';
+.ThePlans {
+    background-color: $blue;
+    padding: 50px 0;
+    color: white;
+     .ThePlans-title  {
+        text-align: center;
+        p {
+            margin-top: 10px;
+        }
+     }
+  
+    .CartPlans {
+        padding:30px;
+        justify-content: space-evenly;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.CartPlan {
+    border-radius: 10px;
+    margin-top: 50px;
+    background-color: #072A4F ;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+    
+    .title {
+        color: rgb(240, 240, 240);
+        padding: 20px 0;
+    }
+
+    .price {
+        display: flex;
+        align-items: end;
+        padding:10px 0;
+        padding-bottom:20px 0;
+    }
+
+    .price p {
+        display: flex;
+    }
+
+    .price span {
+        color: #ffffff;
+    }
+
+    .paragraph {
+        color: rgb(255, 255, 255);
+        padding: 10px 0;
+        width: 300px;
+    }
+
+    button {
+        font-size: 10px;
+        margin: 30px 0;
+        padding: 10px;
+    }
+
+    .check h5 {
+        margin: 30px 0;
+    }
+}

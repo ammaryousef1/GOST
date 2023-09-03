@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.gradient-button {
+  /* ff 3.6+ */
+  /* safari 5.1+,chrome 10+ */
+  /* opera 11.10+ */
+  background: -o-linear-gradient(90deg, rgb(232, 115, 115) 30%, rgb(255, 66, 91) 48%, rgb(255, 66, 91) 67%);
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#FF425B", endColorstr="#E87373", GradientType=0 );
+  /* ie 10+ */
+  /* global 94%+ browsers support */
+  background: linear-gradient(90deg, rgb(232, 115, 115) 30%, rgb(255, 66, 91) 48%, rgb(255, 66, 91) 67%);
+}
+
+.Algistino {
+  padding: 100px;
+}
+.Algistino .Algistino-title {
+  text-align: center;
+}
+.Algistino .Algistino-title h1 {
+  margin-bottom: 10px;
+}
+.Algistino .Algistino-all-box {
+  display: flex;
+}
+
+.Algistinobox {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+.Algistinobox .quat-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 400px;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 35px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.Algistino-box {
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.Algistino-box q {
+  color: #9d9d9d;
+  line-height: 2rem;
+}
+.Algistino-box h3 {
+  margin: 20px;
+}
+.Algistino-box span {
+  color: #9d9d9d;
+}
+
+@media screen and (max-width: 1000px) {
+  .Algistino-all-box {
+    flex-wrap: wrap;
+  }
+}/*# sourceMappingURL=Algistino.css.map */

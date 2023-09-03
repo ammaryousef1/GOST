@@ -1,0 +1,40 @@
+@import './Variables/Variables.scss';
+
+.TopSelling {
+    padding:40px;
+    .TopSelling-titles {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      
+        flex-wrap: wrap;
+        
+
+        h2 {
+            margin-bottom:10px;
+            font-weight: 500;
+        }
+
+        p {
+            color: $blue;
+        }
+
+        button {
+            margin: 10px;
+            color: white;
+        }
+    } 
+}
+
+@media screen and (max-width: 375px) {
+    .category-btn  button{
+        width: 120px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .category-btn  button{
+        width: 100px;
+    }
+}

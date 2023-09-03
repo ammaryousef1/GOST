@@ -1,0 +1,9 @@
+@import './Variables/Variables.scss';
+footer {
+    margin-top: 150px;
+    background-color: $dark;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    font-weight: 100;
+}

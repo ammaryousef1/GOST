@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.gradient-button {
+  /* ff 3.6+ */
+  /* safari 5.1+,chrome 10+ */
+  /* opera 11.10+ */
+  background: -o-linear-gradient(90deg, rgb(232, 115, 115) 30%, rgb(255, 66, 91) 48%, rgb(255, 66, 91) 67%);
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#FF425B", endColorstr="#E87373", GradientType=0 );
+  /* ie 10+ */
+  /* global 94%+ browsers support */
+  background: linear-gradient(90deg, rgb(232, 115, 115) 30%, rgb(255, 66, 91) 48%, rgb(255, 66, 91) 67%);
+}
+
+.hero {
+  text-align: center;
+  margin: 100px 0;
+}
+
+.title h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+.title h1 span {
+  color: #ff5400;
+}
+
+.search {
+  padding: 15px;
+  border-radius: 45px;
+  max-width: 100%;
+  width: 55%;
+  background-color: white;
+  margin: auto;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  font-size: 18px;
+  align-items: center;
+}
+.search .search-npt {
+  display: flex;
+  gap: 30px;
+}
+.search .search-npt input {
+  font-size: 18px;
+  border: none;
+  outline: none;
+}
+.p {
+  color: #9d9d9d;
+  margin: 30px 0;
+}
+
+.p:last-of-type {
+  color: #9d9d9d;
+  margin: 10px;
+}
+
+@media (max-width: 580px) {
+  .title h1 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .title h1 span {
+    color: #ff5400;
+    font-size: 20px;
+  }
+  .search span {
+    font-size: 15px;
+  }
+  .search input {
+    font-size: 15px;
+    border: none;
+    outline: none;
+  }
+  .search .icon-search {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .search span {
+    font-size: 12px;
+  }
+  .search input {
+    font-size: 12px;
+    border: none;
+    outline: none;
+  }
+  .search .icon-search {
+    display: none;
+  }
+}
+@media (max-width: 380px) {
+  .search span {
+    font-size: 10px;
+  }
+  .search input {
+    font-size: 10px;
+    border: none;
+    outline: none;
+  }
+  .search .icon-search {
+    display: none;
+  }
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 30px;
+}/*# sourceMappingURL=Hero.css.map */

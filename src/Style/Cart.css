@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.gradient-button {
+  /* ff 3.6+ */
+  /* safari 5.1+,chrome 10+ */
+  /* opera 11.10+ */
+  background: -o-linear-gradient(90deg, rgb(232, 115, 115) 30%, rgb(255, 66, 91) 48%, rgb(255, 66, 91) 67%);
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#FF425B", endColorstr="#E87373", GradientType=0 );
+  /* ie 10+ */
+  /* global 94%+ browsers support */
+  background: linear-gradient(90deg, rgb(232, 115, 115) 30%, rgb(255, 66, 91) 48%, rgb(255, 66, 91) 67%);
+}
+
+.Cart {
+  padding: 20px 40px;
+  display: flex;
+  gap: 50px;
+}
+.Cart img {
+  width: 700px;
+  height: 700px;
+}
+.Cart .price {
+  display: block;
+  margin: 40px 0 5px 0;
+}
+.Cart h5 {
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+.Cart .buttons {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+.Cart .buttons .btn-quantity {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100px;
+}
+.Cart .buttons .btn-quantity span {
+  padding: 5px;
+}
+.Cart .buttons .addToCart {
+  width: 200px;
+  background-color: #0a2748;
+  border: none;
+  color: white;
+  font-weight: 600;
+}
+.Cart .Cart-Description h5 {
+  margin-bottom: 5px;
+}
+.Cart .Cart-Description span {
+  line-height: 1.5rem;
+  color: #9d9d9d;
+}
+.Cart .product-details h5 {
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+.Cart .product-details div {
+  color: #9d9d9d;
+  margin: 20px 0;
+}
+
+@media screen and (max-width: 1189px) {
+  .Cart img {
+    width: 600px;
+    height: 600px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .Cart img {
+    width: 500px;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .Cart img {
+    width: 400px;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .Cart {
+    flex-wrap: wrap;
+  }
+  .Cart img {
+    width: 600px;
+    height: 600px;
+  }
+}
+@media screen and (max-width: 691px) {
+  .Cart {
+    flex-wrap: wrap;
+  }
+  .Cart img {
+    width: 500px;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Cart {
+    flex-wrap: wrap;
+  }
+  .Cart img {
+    width: 400px;
+    height: 400px;
+  }
+}/*# sourceMappingURL=Cart.css.map */
